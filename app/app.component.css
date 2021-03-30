@@ -1,0 +1,63 @@
+#amnas {
+    background-color: rgba(92, 83, 83, 0.753);
+    text-align: left;
+}
+
+#sp1 {
+    text-align: center;
+}
+
+#ul2 {
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    text-align: center;
+    align-items: center;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    padding: 28px 32px;
+    text-decoration: none;
+    font-family: 'grodna_demoregular';
+    font-size: 48px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  /**/
+  #menu-outer {
+	height: 80px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
